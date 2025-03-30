@@ -1,0 +1,298 @@
+.signup{
+    width: 100%;
+    direction: rtl;
+    padding: 8px;
+}
+
+
+.signup .signup-part h2{
+    font-family: goldtag;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 24px 0px;
+}
+
+
+
+.signup-card .signup-image{
+    display: none;
+}
+
+.signup-form .sinup-formpart .first-part .form-part{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 20px;
+    gap: 10px;
+    font-family: goldtag;
+}
+
+.signup-form .sinup-formpart .first-part {
+    border-bottom: 0.8px solid #e1e5e9;
+}
+
+.sinup-formpart .first-part .form-part:nth-of-type(7){
+    margin-bottom: 25px;
+}
+
+.sinup-formpart .first-part .form-part:nth-last-of-type(1){
+    display: none;
+}
+
+.sinup-formpart .first-part .form-part:nth-last-of-type(2){
+    display: none;
+}
+
+.first-part .form-part input{
+    width: 100%;
+    height: 38px;
+    padding: 8px 10px;
+    border: 1px solid #d1d5da;
+    box-shadow: 0 1px 2px rgba(27, 31, 35, .075);
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.first-part .form-part input:focus{
+    outline: none;
+    border: 0.8px solid rgb(0, 0, 203);
+}
+
+
+.first-part .form-part input::placeholder{
+    font-family: goldtag;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.first-part .form-part select{
+    width: 100%;
+    height: 38px;
+    padding: 8px 10px;
+    border: 1px solid #d1d5da;
+    box-shadow: 0 1px 2px rgba(27, 31, 35, .075);
+    background-color: #fff;
+    border-radius: 4px;
+    font-family: goldtag;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+.first-part .form-part select:focus{
+    outline: none;
+    border: 0.8px solid rgb(0, 0, 203);
+}
+
+
+.first-part .form-part select option{
+    font-family: goldtag;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+
+.first-part .form-part label{
+    font-size: 13.6px;
+    font-weight: 400;
+    color:  rgb(94, 105, 113);
+}
+
+.first-part .form-part label span{
+    color: rgb(231, 48, 42);
+    font-size: 13.6px;
+    font-weight: 400;
+}
+
+
+/* second-part */
+.second-part .form-part{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 10px;
+    gap: 10px;
+    font-family: goldtag;
+}
+
+.signup-form .sinup-formpart .second-part {
+    border-bottom: 0.8px solid #e1e5e9;
+}
+
+.signup-form .sinup-formpart .second-part .form-part:nth-last-of-type(1){
+    margin-bottom: 25px;
+}
+
+.second-part .form-part input{
+    width: 100%;
+    height: 38px;
+    padding: 8px 10px;
+    border: 1px solid #d1d5da;
+    box-shadow: 0 1px 2px rgba(27, 31, 35, .075);
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.second-part .form-part input::placeholder{
+    font-family: goldtag;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.second-part .form-part select{
+    width: 100%;
+    height: 38px;
+    padding: 8px 10px;
+    border: 1px solid #d1d5da;
+    box-shadow: 0 1px 2px rgba(27, 31, 35, .075);
+    background-color: #fff;
+    border-radius: 4px;
+    font-family: goldtag;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.second-part .form-part label{
+    font-size: 13.6px;
+    font-weight: 400;
+    color:  rgb(94, 105, 113);
+}
+
+.second-part .form-part label span{
+    color: rgb(231, 48, 42);
+    font-size: 13.6px;
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+
+.second-part .form-part select:focus{
+    outline: none;
+    border: 0.8px solid rgb(0, 0, 203);
+}
+
+
+.select-part .form-part select option{
+    font-family: goldtag;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+/*fourth-part  */
+.fourth-part .form-part{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 10px;
+    gap: 10px;
+    font-family: goldtag;
+}
+
+.signup-form .sinup-formpart .fourth-part {
+    border-bottom: 0.8px solid #e1e5e9;
+}
+
+.signup-form .sinup-formpart .fourth-part .form-part:nth-last-of-type(1){
+    margin-bottom: 25px;
+}
+
+.fourth-part .form-part input{
+    width: 100%;
+    height: 38px;
+    padding: 8px 10px;
+    border: 1px solid #d1d5da;
+    box-shadow: 0 1px 2px rgba(27, 31, 35, .075);
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.fourth-part .form-part input::placeholder{
+    font-family: goldtag;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.fourth-part .form-part label{
+    font-size: 13.6px;
+    font-weight: 400;
+    color:  rgb(94, 105, 113);
+}
+
+.fourth-part .form-part label span{
+    color: rgb(231, 48, 42);
+    font-size: 13.6px;
+    font-weight: 400;
+    margin-right: 5px;
+}
+
+/*  third-part */
+.signup-form .sinup-formpart .third-part{
+    margin-top: 8px;
+    width: 100%;
+    font-family: goldtag;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.signup-form .sinup-formpart .third-part .first-control-label {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+.signup-form .sinup-formpart .third-part .first-control-label input[type=checkbox]{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    align-self: center;
+}
+
+.signup-form .sinup-formpart .third-part .first-control-label label{
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.signup-form .sinup-formpart .third-part .second-control-label {
+    cursor: pointer;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+.signup-form .sinup-formpart .third-part .second-control-label input[type=checkbox]{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    padding-right: 24px;
+    align-self: flex-end;
+}
+
+.signup-form .sinup-formpart .third-part .second-control-label label{
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    align-self:flex-end;
+}
+
+.second-control-label label span:nth-of-type(1){
+    color: rgb(64, 141, 188);
+}
+
+.second-control-label label span:nth-of-type(2){
+    color: red;
+    margin-right: 5px;
+}
+
+
+
+
+/* button */
+
+.signup-form .create-account{
+    display: none;
+}

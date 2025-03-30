@@ -1,0 +1,463 @@
+.products {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.title-p {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.title-p h3 {
+  font-family: goldtag;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.title-p a {
+  font-family: goldtag;
+  font-size: 13px;
+  font-weight: 400;
+  color: #436fbe;
+  border: 1px solid #436fbe;
+  border-radius: 4px;
+  padding: 3px 12px;
+  text-decoration: none;
+}
+
+.products-container {
+  display: grid;
+  width: 100%;
+  grid-template-rows: repeat(8, 500px);
+  grid-template-columns: 100%;
+  row-gap: 5px;
+}
+
+.products-container .product-card {
+  background-color: white;
+  border-top: 2px solid #6161611d;
+  border-bottom: 2px solid #6161611d;
+}
+
+
+.product-card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product-card {
+  font-family: goldtag;
+}
+
+.det {
+  width: 100%;
+  padding: 8px;
+  border-top: 1px solid #61616128;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: start;
+}
+
+.product-card h4 {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+}
+
+.product-card p {
+  font-size: 12px;
+  font-weight: 300;
+  color: #616161;
+}
+
+.product-card .price-tag {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: end;
+  align-items: end;
+  margin-top: 30px;
+  color: #616161;
+  font-size: 12px;
+}
+
+.product-card:nth-of-type(1) .price-tag{
+  margin-top: 10px;
+}
+
+.products-container .product-card .price-tag svg{
+  width: 35px;
+  height: 30px;
+  position: relative;
+  bottom: 90px;
+  right: 130px;
+}
+
+.products-container .product-card:nth-of-type(2) .price-tag svg{
+  bottom: 110px;
+  right: 150px;
+}
+
+.products-container .product-card:nth-of-type(3) .price-tag svg{
+  bottom: 110px;
+  right: 170px;
+}
+
+.products-container .product-card:nth-of-type(4) .price-tag svg{
+  bottom: 110px;
+  right: 170px;
+}
+
+.products-container .product-card:nth-of-type(5) .price-tag svg{
+  bottom: 110px;
+  right: 150px;
+}
+
+.products-container .product-card:nth-of-type(6) .price-tag svg{
+  bottom: 110px;
+  right: 145px;
+}
+
+.products-container .product-card:nth-of-type(7) .price-tag svg{
+  bottom: 110px;
+  right: 120px;
+}
+
+.products-container .product-card:nth-of-type(8) .price-tag svg{
+  bottom: 110px;
+}
+
+
+.products-container .product-card .price-tag p{
+  font-size: 14px;
+  font-weight: 600;
+  color: #b8b8b8;
+  font-family: goldtag-numbers;
+  text-decoration: line-through;
+  margin-left: 8px;
+  margin-bottom: 12px;
+}
+
+.products-container .product-card:nth-of-type(1) .price-tag p{
+  margin-bottom: 0;
+}
+
+.product-card .price-tag span {
+  color: #bc4141;
+  font-weight: 600;
+  font-size: 17px;
+  font-family: goldtag-numbers;
+  margin-left: 10px;
+  margin-bottom: 12px;
+}
+
+.product-card:nth-of-type(1) .price-tag span{
+  margin-bottom: 0;
+}
+
+.product-card .price-tag span::after {
+  content: "تومان";
+  font-weight: 600;
+  font-size: 12px;
+  color: #bc4141;
+  font-family: goldtag;
+  margin-right: 5px;
+}
+
+.products-container .product-card:nth-of-type(1) .card-image {
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:68%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/1242561748_1729687241__750-544.jpg");
+}
+
+.products-container .product-card:nth-of-type(2) .card-image {
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:68%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/1718529194_1678964519__750-5447.jpg");
+}
+
+.products-container .product-card:nth-of-type(3) .card-image {
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height:68%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/2080670947_1742043357__750-544.jpg");
+}
+
+.products-container .product-card:nth-of-type(4) .card-image {
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height:68%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/1681027074_1732195231__750-544.jpg");
+}
+
+.products-container .product-card:nth-of-type(5) .card-image {
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height:68%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/1869636075_1735044507__750-544.jpg");
+}
+
+.products-container .product-card:nth-of-type(6) .card-image {
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:68%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/2087455795_1734443129__750-544.jpg");
+}
+
+.products-container .product-card:nth-of-type(7) .card-image {
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height:68%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/1628665700_1740835113__750-544.jpg");
+}
+
+.products-container .product-card:nth-of-type(8) .card-image {
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height:68%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/1128386730_1725369880__750-544.jpg");
+}
+
+
+
+.products-container .product-card {
+  position: relative;
+}
+
+.card-image .sale {
+  border: 1px solid #8e8e8e;
+  border-radius: 4px;
+  position: absolute;
+  top: 440px;
+  right: 8px;
+  width: 110px;
+  height: 25px;
+  font-family: goldtag-numbers;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(103, 103, 103);
+  background-color: rgb(255, 255, 255);
+}
+
+.sale svg {
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+.sale::after {
+  content: "فروخته شده";
+  font-family: goldtag;
+  font-size: 10px;
+  font-weight: 600;
+  color: #797979;
+  margin-right: 4px;
+  line-height: 25px;
+}
+
+
+/* slider */
+.products .swiper-slide{
+  border: #6161611d;
+}
+
+.products .swiper-slide .product-card{
+  width: 100%;
+  height: 350px;
+  border: 1px solid #6161611d;
+  border-radius: 8px;
+}
+
+.products .swiper-slide .product-card .det h4{
+  font-size: 13px;
+}
+
+.products .swiper-slide:nth-of-type(1) .card-image {
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height:60%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/1128386730_1725369880__750-544.jpg");
+}
+
+.products .swiper-slide:nth-of-type(2) .card-image {
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height:60%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/1761157650_1686463738__750-5445.jpg");
+}
+
+.products .swiper-slide:nth-of-type(3) .card-image {
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height:60%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/2087455795_1734443129__750-544.jpg");
+}
+
+.products .swiper-slide:nth-of-type(4) .card-image {
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height:60%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/1242561748_1729687241__750-544.jpg");
+}
+
+.products .swiper-slide:nth-of-type(5) .card-image {
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height:60%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/254285365_1727274293__750-544.jpg");
+}
+
+.products .swiper-slide:nth-of-type(6) .card-image {
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height:60%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/369074234_1741513315__750-544.jpg");
+}
+
+.products .swiper-slide:nth-of-type(7) .card-image {
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height:60%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/1731890539_1740922709__750-544.jpg");
+}
+
+.products .swiper-slide:nth-of-type(8) .card-image {
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height:60%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/1628665700_1740835113__750-544.jpg");
+}
+
+
+.products .swiper-slide:nth-of-type(9) .card-image {
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height:60%;
+  align-self: center;
+  background-image: url("https://cdn3.goldtag.net/web/uploads/pictures/620x450/2025005255_1740572635__750-544.jpg");
+}
+
+
+.products .swiper-slide .product-card .price-tag {
+  width: 100%;
+  padding: 3px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+  align-items: center;
+}
+
+.products .swiper-slide .product-card .price-tag span {
+  color: #bc4141;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.products .swiper-slide .product-card .price-tag p{
+  font-size: 14px;
+  font-weight: 600;
+  color: #b8b8b8;
+  font-family: goldtag-numbers;
+  text-decoration: line-through;
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+
+.products .swiper-slide .product-card .price-tag svg{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 110px;
+  left: 5px;
+}
+
+.products .swiper-slide .card-image .sale {
+  border: 1px solid #8c8c8c;
+  border-radius: 4px;
+  position: absolute;
+  top: 280px;
+  right: 8px;
+  width: 110px;
+  height: 25px;
+  font-family: goldtag-numbers;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(106, 106, 106);
+  background-color: rgb(255, 255, 255);
+}
+
+.products .swiper-slide .sale svg {
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+.products .swiper-slide .product-card .sale::after {
+  content: "فروخته شده";
+  font-family: goldtag;
+  font-size: 10px;
+  font-weight: 600;
+  color: #797979;
+  margin-right: 4px;
+  line-height: 25px;
+}

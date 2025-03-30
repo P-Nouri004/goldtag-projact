@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: goldtag;
+    src: url(../fonts/icons.woff2) ;
+    src: url(../fonts/iryekan-bold.woff) ;
+    src: url(../fonts/iryekan-light.woff) ;
+    src: url(../fonts/iryekan-number-bold.woff2);
+    src: url(../fonts/iryekan-number-light.woff2) ;
+    src: url(../fonts/iryekan-number-regular.woff2) ;
+    src: url(../fonts/iryekan-regular.woff);
+    /* src: url(./fonts/iryekan-number-bold.woff); */
+     /* src: url(./fonts/iryekan-number-light.woff);  */
+}
+
+@font-face {
+    font-family: goldtag-numbers ;
+    src: url(../fonts/icons.woff2) ;
+    src: url(../fonts/iryekan-bold.woff) ;
+    src: url(../fonts/iryekan-light.woff) ;
+    src: url(../fonts/iryekan-number-bold.woff2);
+    src: url(../fonts/iryekan-number-light.woff2) ;
+    src: url(../fonts/iryekan-number-regular.woff2) ;
+    src: url(../fonts/iryekan-regular.woff);
+    src: url(../fonts/iryekan-number-bold.woff); 
+    src: url(../fonts/iryekan-number-light.woff);  
+}

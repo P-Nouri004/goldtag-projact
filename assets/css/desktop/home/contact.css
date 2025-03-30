@@ -1,0 +1,68 @@
+.contact{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.contact-container{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact-options h3{
+    font-family: goldtag;
+    font-size: 13px;
+    font-weight: 300;
+    color: #666666bb;
+    margin-bottom: 5px;
+}
+
+.contact-options{
+    width: 270px;
+    height: 90px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 500ms;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.contact-options:hover{
+    opacity: .7;
+}
+
+.contact-options:nth-of-type(1){
+    background-image: linear-gradient(99deg,#91c4aa,#95c2a9 -65%,#ee8f8f 42%,#ee8f8f);
+}
+
+.contact-option-info{
+    background-color: white;
+    width: 260px;
+    height: 80px;
+    align-self: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-options:nth-of-type(2){
+    background-image: linear-gradient(138deg, #61c4dc, #61c5dc 35%, #829dca 80%, #829dca);
+}
+.contact-options:nth-of-type(3){
+    background-image: linear-gradient(123deg, #b260ae, #b260ae -20%, #f17768 88%, #f87960);
+}
+.contact-options:nth-of-type(4){
+    background-image: linear-gradient(138deg, #cdab68, #cdab68 35%, #bc9d5f 80%, #bc9d5f);
+}

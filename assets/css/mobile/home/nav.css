@@ -1,0 +1,11 @@
+.nav-tablet{
+    font-family: goldtag;
+}
+
+header .desktop-header{
+    display: none;
+}
+
+section.navbar{
+    display:none;
+}
