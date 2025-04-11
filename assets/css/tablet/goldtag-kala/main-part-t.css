@@ -77,11 +77,12 @@
 .goldtag-kala  .left-side .cards{
     width: 100%;
     display: grid;
-    grid-template-columns:480px 480px;
+    grid-template-columns:1fr 1fr;
     row-gap: 20px;
     justify-content: center;
     align-content:start ;
     font-family: goldtag;
+    padding: 0 5px;
 }
 
 .goldtag-kala  .left-side .cards .product-cards{

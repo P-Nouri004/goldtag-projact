@@ -67,13 +67,13 @@
 .goldtag-kala  .left-side .Category-desktop .tehran-kala .gold-tehran a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .goldtag-kala  .left-side .Category-desktop .tehran-kala .gold-tehran a span{
     color: rgb(115, 115, 115);
     margin-right: 5px;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .goldtag-kala  .left-side .Category-desktop .tehran-kala .goldtag-category{
@@ -84,8 +84,8 @@
 .goldtag-kala  .left-side .Category-desktop .tehran-kala .goldtag-category a{
     text-decoration: none;
     color: rgb(102, 102, 102);
-    font-size: 15px;
-    margin: 8px;
+    font-size: 14px;
+    margin: 4px;
 }
 
 
@@ -108,11 +108,10 @@
 .goldtag-kala  .left-side .cards{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4,290px);
-    gap: 8px;
-    padding: 10px;
+    grid-template-columns: repeat(4,24%);
+    gap: 5px;
+    padding: 6px;
     justify-content: space-between;
-    
 }
 
 .goldtag-kala  .left-side .cards .product-cards{
@@ -125,7 +124,7 @@
 .goldtag-kala  .left-side .cards  .card {
     background-color: white;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     transition: 300ms;
     border-radius: 5px;
     border: 0.5px solid rgb(222, 222, 222);
@@ -167,15 +166,14 @@
 
 
 .goldtag-kala  .left-side .product-cards .cards .card .product-cards .card-information{
-    height: 90px;
     border-top: 0.8px solid rgba(0, 0, 0, .07);
 }
 
 
 .goldtag-kala  .left-side .cards  .card .product-cards .card-information h3{
     color: rgb(51, 51, 51);
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 500;
     line-height:19px ;
     margin: 8px;
 }
@@ -191,9 +189,9 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    gap: 85px;
     justify-content: center;
     height: 40px;
+    padding: 2px;
 }
 
 
@@ -202,6 +200,7 @@
     width: 30px;
     height: 20px;
     margin-top: 5px;
+    margin-right: 5px;
 }
 
 .goldtag-kala  .left-side .cards  .card .product-cards .product-offer .left-info{
@@ -212,24 +211,24 @@
     font-size: 18px;
     font-weight: 600 ;
     font-family: goldtag-numbers;
+    margin-right: auto;
 
 }
 
 .goldtag-kala  .left-side .cards  .card  .product-cards .product-offer .left-info::after{
     content: "تومان";
     font-family: goldtag;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
 }
 
 .goldtag-kala  .left-side .cards  .card  .product-cards .product-offer .left-info h3{
     color: rgb(158, 158, 158);
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 600;
     display: inline-block;
     text-decoration: line-through;
     margin-left: 10px;
-
 }
 
 .goldtag-kala  .left-side .cards  .card  .product-cards .product-offer .center-info{
@@ -250,7 +249,6 @@
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     border-bottom: 0.8px solid rgba(0, 0, 0, .07);
-
 }
 
 
@@ -266,6 +264,7 @@
 }
 
 .goldtag-kala  .left-side .cards   .card:nth-of-type(2)::before{
+    display: none;
     content: "";
     background-image: url(https://cdn3.goldtag.net/frontend/assets/v1.4.39/images/handmade/ribbon-soldout.png);
     width: 5rem;
@@ -273,9 +272,9 @@
     background-size: cover;
     position: absolute;
     bottom:207px;
-    left: 215px;
+    left: 208px;
 
-}
+} 
 
 
 
@@ -313,6 +312,7 @@
 }
 
 .goldtag-kala  .left-side .cards   .card:nth-of-type(5)::before{
+    display: none;
     content: "";
     background-image: url(https://cdn3.goldtag.net/frontend/assets/v1.4.39/images/handmade/ribbon-soldout.png);
     width: 5rem;
@@ -413,6 +413,7 @@
 }
 
 .goldtag-kala  .left-side .cards   .card:nth-of-type(13)::before{
+    display: none;
     content: "";
     background-image: url(https://cdn3.goldtag.net/frontend/assets/v1.4.39/images/handmade/ribbon-soldout.png);
     width: 5rem;
@@ -422,14 +423,13 @@
     bottom:207px;
     left: 215px;
 
-}
+} 
 
 .goldtag-kala  .left-side .cards .card:nth-of-type(13) .product-cards  .product-offer{
     border-top: 0.8px solid rgba(0, 0, 0, .07);
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    gap: 65px;
     justify-content: center;
     height: 40px;
 }
@@ -568,8 +568,8 @@
     border-top-right-radius: 4px;
     border-bottom: 0.8px solid rgba(0, 0, 0, .07);
 }
-
 .goldtag-kala  .left-side .cards   .card:nth-of-type(25)::before{
+    display: none;
     content: "";
     background-image: url(https://cdn3.goldtag.net/frontend/assets/v1.4.39/images/handmade/ribbon-soldout.png);
     width: 5rem;
@@ -579,7 +579,7 @@
     bottom:207px;
     left: 215px;
 
-}
+} 
 
 .goldtag-kala  .left-side .cards .card:nth-of-type(26) .product-cards .card-image{
     height: 180px;
